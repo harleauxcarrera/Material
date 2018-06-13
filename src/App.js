@@ -42,7 +42,6 @@ class App extends Component {
           <Typography variant="title" color="inherit" >
             Title
           </Typography>
-          <Button  color="inherit" style={buttonStyle} >Login</Button>
         </Toolbar>
       </AppBar>
 

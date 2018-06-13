@@ -11,12 +11,13 @@ import SendIcon from '@material-ui/icons/Send';
 import MailIcon from '@material-ui/icons/Mail';
 import DeleteIcon from '@material-ui/icons/Delete';
 import ReportIcon from '@material-ui/icons/Report';
+import Android from '@material-ui/icons/Android';
 
 export const mailFolderListItems = (
   <div>
     <ListItem button>
       <ListItemIcon>
-        <InboxIcon />
+        <Android/>
       </ListItemIcon>
       <ListItemText primary="Inbox" />
     </ListItem>
